@@ -1,0 +1,19 @@
+header{
+    background:#f5cbd7;
+    border-bottom:4px dotted #ecaab2;
+    padding:14px 20px;
+    display:flex;
+    flex-wrap:wrap;;
+    align-items:center;
+    justify-content:space-between;
+}
+
+body{
+    margin:0;
+    font-family:'Nunito',Arial,sans-serif;
+    background:#fff7ec;
+    color: #442f2a;
+    line-height:1.65;
+    font-size:1;
+
+}
