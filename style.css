@@ -1,19 +1,199 @@
 header{
-    background:#f5cbd7;
-    border-bottom:4px dotted #ecaab2;
+    background-color:#fde4ea;
+    border-bottom:4px dotted #f8c8d4;
     padding:14px 20px;
     display:flex;
-    flex-wrap:wrap;;
+    flex-wrap:wrap;
     align-items:center;
     justify-content:space-between;
+    gap:10px;
+}
+
+.logo{
+    font-family:Georgia,serif;
+    font-size:30px;
+    font-weight:bold;
+    color:#6b4430;
+    text-decoration:none;
+}
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:6px;
+}
+
+nav a{
+    padding:8px 16px;
+    border-radius:50px;
+    color:#6b4430;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover,nav a.on{
+    background-color:#e0728f;
+    color:white;
 }
 
 body{
     margin:0;
-    font-family:'Nunito',Arial,sans-serif;
-    background:#fff7ec;
-    color: #442f2a;
-    line-height:1.65;
-    font-size:1;
-
+    font-family:Arial,sans-serif;
+    background-color:#fff8f3;
+    color:#4a2c1d;
+    font-size:17px;
+    line-height:1.6;
 }
+
+h1,h2,h3{
+    font-family:Georgia,serif;
+    color:#6b4430;
+    line-height:1.2;
+    font-weight:bold;
+}
+
+h1{
+    font-size:44px;
+    margin-top:0;
+    margin-bottom:16px;
+}
+
+h2{
+    font-size:30px;
+    margin-top:0;
+    margin-bottom:12px;
+}
+
+h3{
+    font-size:22px;
+    margin-top:0;
+    margin-bottom:8px;
+}
+
+a{
+    color:#e0728f;
+}
+
+hr{
+    border:2px dotted #f8c8d4;
+}
+
+main{
+    max-width:960px;
+    margin:0 auto;
+    padding:40px 20px;
+}
+
+.dolni{
+    background-color:#f6ebdc;
+}
+
+.karta{
+    flex: 1;
+    min-width:250px;
+    background-color:white;
+    border:3px dotted #f8c8d4;
+    border-radius:26px;
+    padding:22px;
+}
+
+.karta:hover{
+    background-color:#fde4ea
+}
+
+.karty{
+    display:flex;
+    flex-wrap:wrap;
+    gap:22px;
+}
+
+.tlacitko{
+    display:inline-block;
+    background-color:#e0728f;
+    color:white;
+    padding:12px 26px;
+    border-radius:50px;
+    text-decoration: none;
+    font-weight:bold;
+    margin: top 10px;
+}
+
+.tlacitko:hover{
+    background-color: #6b4430;
+}
+
+.center{
+    text-align:center;
+    margin-top:34px;
+}
+
+.uvod{
+    position:relative;
+    background-color:#fde4ea;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+    padding:70px 20px 50px 20px;
+    text-align:center;
+}
+
+.uvod-text{
+    flex:1;
+    min-width:260px;
+    max-width:500px;
+}
+
+.doba{
+    position:absolute;
+    top:14px;
+    right:14px;
+    background-color:#6b4430;
+    color:#fff8f3;
+    padding:8px 16px;
+    border-radius:50px;
+    font-weight:bold;
+    font-size:14px;
+}
+
+footer{
+    background-color:#6b4430;
+    color:#f6ebdc;
+    text-align:center;
+    padding:28px 20px;
+    font-size:15px
+}
+footer a{
+    color:#f8c8d4
+}
+
+.menu{
+    padding:0;
+    margin:0 0 30px 0
+}
+
+.menu li{
+    display:flex;
+    justify-content:space-between;
+    gap:12px;
+    padding:12px 10px;
+    border-bottom:3px dotted #f8c8d4
+}
+
+.menu li:hover{
+    background-color:#fde4ea
+}
+
+.menu p{
+    margin:0;
+    font-size:14px;
+    color:#8a6a58
+}
+
+.cena{
+    color:#e0728f;
+    min-width:60px;
+    text-align:right
+}
+ 
