@@ -197,3 +197,26 @@ footer a{
     text-align:right
 }
  
+.vec{
+    flex:1;
+    min-width:240px
+}
+
+.foto{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:180px;
+    font-size:56px;
+    background-color:#f8c8d4;
+    border-radius:22px;
+    margin-bottom:12px
+}
+
+.foto:hover{
+    background-color:#e0728f
+}
+
+.foto img{
+    width:100%;
+}
